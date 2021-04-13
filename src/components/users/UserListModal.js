@@ -22,7 +22,7 @@ const UserListModal = () => {
   return (
     <div id="user-list-modal" className="modal">
       <div className="modal-content">
-        <h4>Technician List</h4>
+        <h4>User List</h4>
         <ul className="collection">
           {!loading &&
             users.map((user) => <UserItem user={user} key={user.id} />)}
