@@ -1,25 +1,25 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changed hard drive on workstation 005",
-      "attention": false,
-      "date": "03-02-2021",
-      "user": "Sam Smith"
-    },
-    {
-      "id": 2,
-      "message": "Worksation 007 not posting",
+      "message": "Dishes need to be washed",
       "attention": true,
-      "date": "03-02-2021",
-      "user": "John Doe"
+      "user": "John Doe",
+      "date": "2021-04-14T03:59:33.983Z",
+      "id": 1
     },
     {
-      "id": 3,
-      "message": "Changed memory on workstation 050",
+      "message": "Bathroom to be tidied.",
+      "attention": true,
+      "user": "Sam Smith",
+      "date": "2021-04-14T04:00:14.777Z",
+      "id": 2
+    },
+    {
+      "message": "Beds were made",
       "attention": false,
-      "date": "03-02-2021",
-      "user": "Sara Wilson"
+      "user": "Sara Wilson",
+      "date": "2021-04-14T04:08:12.853Z",
+      "id": 3
     }
   ],
   "users": [
