@@ -8,13 +8,6 @@
       "id": 1
     },
     {
-      "message": "Bathroom to be tidied.",
-      "attention": true,
-      "user": "Sam Smith",
-      "date": "2021-04-14T04:00:14.777Z",
-      "id": 2
-    },
-    {
       "message": "Beds were made",
       "attention": false,
       "user": "Sara Wilson",
