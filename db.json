@@ -1,11 +1,11 @@
 {
   "logs": [
     {
-      "message": "Dishes need to be washed",
-      "attention": true,
-      "user": "John Doe",
-      "date": "2021-04-14T03:59:33.983Z",
-      "id": 1
+      "id": 1,
+      "message": "Dishes have been washed",
+      "attention": false,
+      "user": "Sam Smith",
+      "date": "2021-04-22T23:46:12.482Z"
     },
     {
       "message": "Beds were made",
