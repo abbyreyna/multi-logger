@@ -20,10 +20,23 @@ export default (state = initialState, action) => {
         users: action.payload,
         loading: false,
       };
+    case ADD_USER:
+      return {
+        ...state,
+        users: [...state.users, action.payload],
+        loading: false,
+      };
     case SET_LOADING:
       return {
         ...state,
         loading: true,
+      };
+    case USERS_ERROR:
+      console.error(action.payload);
+      return {
+        ...state,
+        error: action.payload,
+        loading: false,
       };
     default:
       return state;
