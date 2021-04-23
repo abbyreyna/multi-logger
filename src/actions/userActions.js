@@ -52,6 +52,26 @@ export const addUser = (user) => async (dispatch) => {
   }
 };
 
+export const deleteUser = (id) => async (dispatch) => {
+  try {
+    setLoading();
+
+    await fetch(`/users/${id}`, {
+      method: 'DELETE',
+    });
+
+    dispatch({
+      type: DELETE_USER,
+      payload: id,
+    });
+  } catch (err) {
+    dispatch({
+      type: USERS_ERROR,
+      payload: err.response.statusText,
+    });
+  }
+};
+
 // Set loading to true
 export const setLoading = () => {
   return {
